@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('connecté protectrice de Nawiss', msg => {
-  if (msg.content === 'heyllo et merci shadow') {
-    msg.reply('derien!');
+  if (msg.content === '!heyllo ') {
+    msg.reply('derien');
   }
 });
 
