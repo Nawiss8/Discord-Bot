@@ -42,7 +42,7 @@ client.on("message",message => {
   //!gramgram
   if(message.content == prefix + "gramgram"){
       message.reply("lien");
-      message.channel.send("lien");
+     
 
   }
   
