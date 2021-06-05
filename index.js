@@ -45,12 +45,7 @@ client.on("message",message => {
       
 
   }
-  
- 
-
-} 
-
-)
+})
 
 
 
@@ -74,8 +69,7 @@ client.on("message",message => {
       message.reply("derien,je suis ta protectrice^^");
       
   }  
-} 
-);
+});
 
 client.on("message",message => {
   if(message.author.bot) return;
@@ -262,3 +256,36 @@ client.on("message",message => {
   }
   
 });
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!modération
+  if(message.content == prefix + "modération"){
+      message.reply("veux tu que j'améliore la modération?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!oui
+  if(message.content == prefix + "oui"){
+      message.reply("OK");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!oui
+  if(message.content == prefix + "non"){
+      message.reply("d'accord");   
+  }  
+});
+
+
+
+
