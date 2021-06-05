@@ -106,8 +106,62 @@ client.on("message",message => {
 
   //!Great
   if(message.content == prefix + "Great"){
-      message.reply("https://media.discordapp.net/attachments/848578767667724329/849054256451289118/710408788842381402.png ^^");
+      message.reply("a finir^^");
       
   }  
 } 
 )
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow
+  if(message.content == prefix + "shadow"){
+      message.reply("oui ?");
+      
+  }  
+} 
+)
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!oh
+  if(message.content == prefix + "oh"){
+      message.reply("que se passe t'il ?");
+      
+  }  
+} 
+)
+
+client.on("message",message => {
+  if(message.member.permissions.has("MANAGE_MESSAGES")){
+      if(message.content.startsWith(prefix + "clear")){
+          let args = message.content.split(" ");
+          
+          if(args[1] == undefined){
+              message.reply("Nombre de message non ou mal defini.");
+
+          }
+           else {
+              let number = parseInt(args[1]);
+
+              if(isNaN(number)){
+                 message.reply("Nombre de message non ou mal defini.");
+                  
+              }
+              else {
+                 message.channel.bulkDelete(number).then(messages => {
+                      console.log("Supression de" + messages.size + "messages réussi !")
+
+                 }).catch(err =>{
+                     console.log("Erreur de clear : " + err);
+                 });
+              }
+
+          }
+      }
+
+  }
+  
+});
