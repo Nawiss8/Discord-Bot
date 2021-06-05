@@ -25,9 +25,29 @@ client.on("message",message => {
     if(message.content == prefix + "shadow"){
         message.reply("heyllo Nawiss^^");
         message.channel.send("heyllo Nawiss^^");
+
     }
+
+   
+
   } 
 
+)
 
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow
+  if(message.content == prefix + "gramgram"){
+      message.reply("lien");
+      message.channel.send("lien");
+
+  }
+  
+ 
+
+} 
 
 )
