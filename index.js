@@ -39,7 +39,7 @@ client.on("message",message => {
 client.on("message",message => {
   if(message.author.bot) return;
 
-  //!shadow
+  //!gramgram
   if(message.content == prefix + "gramgram"){
       message.reply("lien");
       message.channel.send("lien");
