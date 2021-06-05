@@ -21,7 +21,7 @@ client.login(process.env.TOKEN);
 client.on("message",message => {
     if(message.author.bot) return;
 
-    //!shadow
+    //shadow
     if(message.content == prefix + "shadow"){
         message.reply("heyllo Nawiss^^");
         message.channel.send("heyllo Nawiss^^");
