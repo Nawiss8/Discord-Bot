@@ -24,10 +24,10 @@ client.on("message",message => {
     //!shadow
     if(message.content == prefix + "shadow"){
         message.reply("heyllo Nawiss^^");
-        message.channel.send("heyllo Nawiss^^");
+        message.channel.send("je te protege si il t'arrive quelque chose");
     }
   } 
 
-  
+
 
 )
