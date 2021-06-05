@@ -21,8 +21,8 @@ client.login(process.env.TOKEN);
 client.on("message",message => {
     if(message.author.bot) return;
 
-    //!shadow
-    if(message.content == prefix + "shadow"){
+    //!heyllo shadow^^
+    if(message.content == prefix + "heyllo shadow^^"){
         message.reply("heyllo Nawiss^^");
         
 
@@ -54,7 +54,6 @@ client.on("message",message => {
 
 
 
-
 client.on("message",message => {
   if(message.author.bot) return;
 
@@ -67,4 +66,27 @@ client.on("message",message => {
   
 } 
 
+)
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!merci shadow
+  if(message.content == prefix + "merci shadow"){
+      message.reply("derien,je suis ta protectrice^^");
+      
+  }  
+} 
+)
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!twitch
+  if(message.content == prefix + "twitch"){
+      message.reply("lien 3");
+      
+  }  
+} 
 )
