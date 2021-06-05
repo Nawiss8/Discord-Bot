@@ -231,18 +231,6 @@ client.on("message",message => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 client.on("message",message => {
   if(message.member.permissions.has("MANAGE_MESSAGES")){
       if(message.content.startsWith(prefix + "clear")){
