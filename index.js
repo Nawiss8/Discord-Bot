@@ -42,12 +42,29 @@ client.on("message",message => {
   //!gramgram
   if(message.content == prefix + "gramgram"){
       message.reply("lien");
-     
+      
 
   }
   
  
 
+} 
+
+)
+
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!tutube
+  if(message.content == prefix + "tutube"){
+      message.reply("lien aussi");
+      
+
+  }
+  
 } 
 
 )
