@@ -97,7 +97,7 @@ client.on("message",message => {
 
   //!lisez bien les regles
   if(message.content == prefix + "lisez bien les regles"){
-      message.reply("oui s'il vous plait,et passez un bon moment peut importe si c'est le matin le, le midi, le soir ou n'importe quelle moment de la journée");
+      message.reply("oui tu as raison, s'il vous plait lisez les bien,merci, et passez un bon moment peut importe si c'est le matin le, le midi, le soir ou n'importe quelle moment de la journée");
       
   }  
 } 
@@ -283,6 +283,176 @@ client.on("message",message => {
   //!oui
   if(message.content == prefix + "non"){
       message.reply("d'accord");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!non c'est rien
+  if(message.content == prefix + "non c'est rien"){
+      message.reply("d'accord je comprend.");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!tu vas bien shadow ?
+  if(message.content == prefix + "tu vas bien shadow ?"){
+      message.reply("si tu es hereux je suis hereuse aussi, et si tu ne l'es pas je le suis pas aussi");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!hhhh ^^
+  if(message.content == prefix + "hhhh ^^"){
+      message.reply("哈哈哈哈");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!ok
+  if(message.content == prefix + "ok"){
+      message.reply("(づ｡◕‿‿◕｡)づ");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!wow
+  if(message.content == prefix + "wow"){
+      message.reply("(ᵔᴥᵔ)");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!attaque spéciale
+  if(message.content == prefix + "attaque spéciale"){
+      message.reply("(∩｀-´)⊃━☆ﾟ.*･｡ﾟ");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow peux tu mettre mon discord
+  if(message.content == prefix + "shadow peux tu mettre mon discord"){
+      message.reply("oui c'est celui-ci : Suyu_Shizu#3061 pour le moment il n'a pas changé");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow as tu le lien discord s'il te plait ?
+  if(message.content == prefix + "shadow as tu le lien discord s'il te plait ?"){
+      message.reply("oui de suite  https://www.twitch.tv/sushi_nawiss");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!^^
+  if(message.content == prefix + "^^"){
+      message.reply("-`ღ´-");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!un jour on sera loin dans l'au dela
+  if(message.content == prefix + "un jour on sera loin dans l'au dela"){
+      message.reply("je le pense aussi ^^");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!c'est quoi gramgram?
+  if(message.content == prefix + "c'est quoi gramgram?"){
+      message.reply("gramgram c'est tout simplement Instagram mais nawiss prefère dire gramgram que instagram.");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!c'est quoi tutube?
+  if(message.content == prefix + "c'est quoi tutube?"){
+      message.reply("tutube c'est Youtube, je suppose que Nawiss appel ça comme cela car c'est plus drole.");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!merci
+  if(message.content == prefix + "merci"){
+      message.reply("pas la peine de me remercier c'est normale");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!mh...
+  if(message.content == prefix + "mh..."){
+      message.reply("as tu besoin de moi ?");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!nop
+  if(message.content == prefix + "nop"){
+      message.reply("OK...");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!pourrais tu m'aider shadow ?
+  if(message.content == prefix + "pourrais tu m'aider shadow ?"){
+      message.reply("que veux tu que je fasse ?");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadowfey
+  if(message.content == prefix + "shadowfey"){
+      message.reply("?");   
   }  
 });
 
