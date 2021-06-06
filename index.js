@@ -133,142 +133,6 @@ client.on("message",message => {
 });
 
 
-
-
-
-
-client.on("message",message => {
-  if(message.author.bot) return;
-  if(message.channel.type == "dm") return;
-  
-  if(message.member.hasPermission("ADMINISTRATOR")){
-      if(message.content.startsWith(prefix + "ban" )){
-         let mention = message.mentions.members.first();
-
-         if(mention == undefined){
-             message.reply("Membre non ou mal mentionné.")
-         }
-         else{
-             if(mention.bannable){
-                 message.ban();
-                 message.channel.send(mention.displayName + "a été banni désolé pour ça il y'a surement une tres grosse raison")
-
-             }
-             else{
-                message.reply("Impossible de bannir ce membre.");
-                  
-                 
-             }
-         }
-      }
-      else if(message.content.startsWith(prefix + "kick")){
-          let mention = message.mentions.members.first()
-          
-          if(mention == undefined){
-            message.reply("Membre non ou mal mentionné");
-          }
-          else{
-              if(mention.kickable){
-                mention.kick;
-                message.channel.send(mention.displayName + "a été kick pardon pour ça mais il y'a certainement une grosse raison" )
-              }
-              else {
-                  message.reply("Impossible de kick ce membre.");
-              }
-          }
-          
-
-            
-      }
-       else if(message.content.startsWith(prefix + "mute")){
-         let mention = message.mentions.members.first();
-
-         if(mention == undefined){
-          messsage.reply("Membre non ou mal mentionné.");
-         }
-
-         else {
-          mention.roles.add("849341514865442816");
-          message.reply(mention.displayName + "mute avec succes");
-      }
-
-           
-      }
-      
-      
-  }
-  else if(message.content.startsWith(prefix + "unmute")){
-       let mention = message.mentions.members.first();
-
-       if(mention == undefined){
-            message.reply("Membre non ou mal mentionné.");
-         }
-
-         else{
-          mention.roles.add("849341514865442816");
-          message .reply(mention.displayName + "unmute avec succes");
-       }
-
-  }
-  else if(message.content.startsWith(prefix + "tempmute")){
-    let mention = message.mentions.members.first(); 
-
-    if(mention == undefined){
-       message.reply("Membre non ou mal mentionné")
-    }
-    else{
-     let args = message.content.split("");
-
-     mention.roles.add("49341514865442816")
-     setTimeout(function(){
-       mention.roles.remove("49341514865442816")
-       message.channel.send("<@" + mention.id + "> welcome back !");
-
-
-     }, args[2] * 1000 );  
-   }
-
- }
-   
-});
-
-
-
-
-
-client.on("message",message => {
-  if(message.member.permissions.has("MANAGE_MESSAGES")){
-      if(message.content.startsWith(prefix + "clear")){
-          let args = message.content.split(" ");
-          
-          if(args[1] == undefined){
-              message.reply("Nombre de message non ou mal defini.");
-
-          }
-           else {
-              let number = parseInt(args[1]);
-
-              if(isNaN(number)){
-                 message.reply("Nombre de message non ou mal defini.");
-                  
-              }
-              else {
-                 message.channel.bulkDelete(number).then(messages => {
-                      console.log("Supression de" + messages.size + "messages réussi !")
-
-                 }).catch(err =>{
-                     console.log("Erreur de clear : " + err);
-                 });
-              }
-
-          }
-      }
-
-  }
-  
-});
-
-
 client.on("message",message => {
   if(message.author.bot) return;
 
@@ -466,6 +330,146 @@ client.on("message",message => {
       message.reply("?");   
   }  
 });
+
+
+
+
+
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+  if(message.channel.type == "dm") return;
+  
+  if(message.member.hasPermission("ADMINISTRATOR")){
+      if(message.content.startsWith(prefix + "ban" )){
+         let mention = message.mentions.members.first();
+
+         if(mention == undefined){
+             message.reply("Membre non ou mal mentionné.")
+         }
+         else{
+             if(mention.bannable){
+                 message.ban();
+                 message.channel.send(mention.displayName + "a été banni désolé pour ça il y'a surement une tres grosse raison")
+
+             }
+             else{
+                message.reply("Impossible de bannir ce membre.");
+                  
+                 
+             }
+         }
+      }
+      else if(message.content.startsWith(prefix + "kick")){
+          let mention = message.mentions.members.first()
+          
+          if(mention == undefined){
+            message.reply("Membre non ou mal mentionné");
+          }
+          else{
+              if(mention.kickable){
+                mention.kick;
+                message.channel.send(mention.displayName + "a été kick pardon pour ça mais il y'a certainement une grosse raison" )
+              }
+              else {
+                  message.reply("Impossible de kick ce membre.");
+              }
+          }
+          
+
+            
+      }
+       else if(message.content.startsWith(prefix + "mute")){
+         let mention = message.mentions.members.first();
+
+         if(mention == undefined){
+          messsage.reply("Membre non ou mal mentionné.");
+         }
+
+         else {
+          mention.roles.add("849341514865442816");
+          message.reply(mention.displayName + "mute avec succes");
+      }
+
+           
+      }
+      
+      
+  }
+  else if(message.content.startsWith(prefix + "unmute")){
+       let mention = message.mentions.members.first();
+
+       if(mention == undefined){
+            message.reply("Membre non ou mal mentionné.");
+         }
+
+         else{
+          mention.roles.add("849341514865442816");
+          message .reply(mention.displayName + "unmute avec succes");
+       }
+
+  }
+  else if(message.content.startsWith(prefix + "tempmute")){
+    let mention = message.mentions.members.first(); 
+
+    if(mention == undefined){
+       message.reply("Membre non ou mal mentionné")
+    }
+    else{
+     let args = message.content.split("");
+
+     mention.roles.add("49341514865442816")
+     setTimeout(function(){
+       mention.roles.remove("49341514865442816")
+       message.channel.send("<@" + mention.id + "> welcome back !");
+
+
+     }, args[2] * 1000 );  
+   }
+
+ }
+   
+});
+
+
+
+
+
+client.on("message",message => {
+  if(message.member.permissions.has("MANAGE_MESSAGES")){
+      if(message.content.startsWith(prefix + "clear")){
+          let args = message.content.split(" ");
+          
+          if(args[1] == undefined){
+              message.reply("Nombre de message non ou mal defini.");
+
+          }
+           else {
+              let number = parseInt(args[1]);
+
+              if(isNaN(number)){
+                 message.reply("Nombre de message non ou mal defini.");
+                  
+              }
+              else {
+                 message.channel.bulkDelete(number).then(messages => {
+                      console.log("Supression de" + messages.size + "messages réussi !")
+
+                 }).catch(err =>{
+                     console.log("Erreur de clear : " + err);
+                 });
+              }
+
+          }
+      }
+
+  }
+  
+});
+
+
 
 
 
