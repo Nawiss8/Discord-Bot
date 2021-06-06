@@ -295,11 +295,84 @@ client.on("message",message => {
 client.on("message",message => {
   if(message.author.bot) return;
 
+  //!thank you
+  if(message.content == prefix + "thank you"){
+      message.reply("you are welcome");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Shadow
+  if(message.content == prefix + "Shadow"){
+      message.reply("Oui ?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!demande à shadow
+  if(message.content == prefix + "demande à shadow"){
+      message.reply("???");   
+  }  
+});
+
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
   //!mh...
   if(message.content == prefix + "mh..."){
       message.reply("as tu besoin de moi ?");   
   }  
 });
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!No one can hide from my sight
+  if(message.content == prefix + "No one can hide from my sight"){
+      message.reply("︻デ═一 One shot One kill");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!HAHA
+  if(message.content == prefix + "HAHA"){
+      message.reply("hahaha");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow peux tu mettre un lien discord
+  if(message.content == prefix + "shadow peux tu mettre un lien discord"){
+      message.reply("oui celui la est infini  :  https://discord.gg/begQYuVSgg");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!GREAT
+  if(message.content == prefix + "GREAT"){
+      message.reply("comme dirait JooE des Momoland");   
+  }  
+});
+
+
 
 
 
