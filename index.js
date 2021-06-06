@@ -123,6 +123,15 @@ client.on("message",message => {
   }  
 });
 
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!hhhh ^^
+  if(message.content == prefix + "hhhh ^^"){
+      message.reply("哈哈哈哈");   
+  }  
+});
+
 
 
 
@@ -306,14 +315,6 @@ client.on("message",message => {
   }  
 });
 
-client.on("message",message => {
-  if(message.author.bot) return;
-
-  //!hhhh ^^
-  if(message.content == prefix + "hhhh ^^"){
-      message.reply("哈哈哈哈");   
-  }  
-});
 
 
 
