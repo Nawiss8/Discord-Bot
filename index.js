@@ -376,6 +376,10 @@ client.on("message",message => {
 
 
 
+
+
+
+
 client.on("message",message => {
   if(message.author.bot) return;
 
@@ -406,6 +410,57 @@ client.on("message",message => {
 
 
 
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!mes 10 jeux vidéos préférés
+  if(message.content == prefix + "mes 10 jeux vidéos préférés"){
+      message.reply("Overwatch, Minecraft, Street Fighter V, GTA 5, Sherwood Dungeon, Roblox, Assassin's Creed Unity, Batman Arkham Knight, Dragon Quest Monster Joker 2, Warface");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!oopsy my bad
+  if(message.content == prefix + "oopsy my bad"){
+      message.reply("as tu fait quelque chose d'eroné?");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!je voudrais passser mon éternité à dessiner
+  if(message.content == prefix + "je voudrais passser mon éternité à dessiner"){
+      message.reply("et moi a te regarder dessiner");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow t'as besoin de moi ?
+  if(message.content == prefix + "shadow t'as besoin de moi ?"){
+      message.reply("merci ^^, mais c'est toi qui a besoin de moi, c'est gentil je te le dirais si j'ai besoin");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Vous allez bien tous ?
+  if(message.content == prefix + "!Vous allez bien tous ?"){
+      message.reply("oui je vais bien tant que toi tu es ok aussi.");   
+  }  
+});
 
 
 
