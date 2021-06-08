@@ -505,6 +505,363 @@ client.on("message",message => {
 });
 
 
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!j'ai besoin d'aide
+  if(message.content == prefix + "j'ai besoin d'aide"){
+      message.reply("dis...?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!mince
+  if(message.content == prefix + "mince"){
+      message.reply("mince ?");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!t'as un lien youtube
+  if(message.content == prefix + "t'as un lien youtube"){
+      message.reply("https://www.youtube.com/channel/UCWr0...");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!t'as un lien youtube ?
+  if(message.content == prefix + "t'as un lien youtube ?"){
+      message.reply("https://www.youtube.com/channel/UCWr0...");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!t'as un lien youtube shadow ?
+  if(message.content == prefix + "t'as un lien youtube shadow ?"){
+      message.reply("https://www.youtube.com/channel/UCWr0...");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!t'as un lien instagram ?
+  if(message.content == prefix + "t'as un lien instagram ?"){
+      message.reply("https://www.instagram.com/sushi_yuzu/");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!t'as un lien instagram shadow ?
+  if(message.content == prefix + "t'as un lien instagram shadow ?"){
+      message.reply("https://www.instagram.com/sushi_yuzu/");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!t'as un lien instagram shadow 
+  if(message.content == prefix + "t'as un lien instagram shadow"){
+      message.reply("https://www.instagram.com/sushi_yuzu/");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!link
+  if(message.content == prefix + "link"){
+      message.reply("link ?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!j'ai une question
+  if(message.content == prefix + "j'ai une question"){
+      message.reply("?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!attend
+  if(message.content == prefix + "attend"){
+      message.reply("oui j'attend");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!peux tu m'aider
+  if(message.content == prefix + "peux tu m'aider"){
+      message.reply("oui tout de suite, qu'attend tu de moi ?");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!ça va
+  if(message.content == prefix + "ça va"){
+      message.reply("je vais bien si tu vas bien");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!merci je vais bien
+  if(message.content == prefix + "merci je vais bien"){
+      message.reply("^^");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!oui ca va
+  if(message.content == prefix + "oui ca va"){
+      message.reply("^^ ok...");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow merci
+  if(message.content == prefix + "shadow merci"){
+      message.reply("HAHAHA...derien");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!drawing
+  if(message.content == prefix + "drawing"){
+      message.reply("tu vas dessiner ?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!art
+  if(message.content == prefix + "art"){
+      message.reply("veux tu des suggestions d'artistes ?");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!art
+  if(message.content == prefix + "art"){
+      message.reply("veux tu des suggestions d'artistes ?");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!non merci
+  if(message.content == prefix + "non merci"){
+      message.reply("ok dis moi quand tu as besoin de moi");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!oui s'il te plait
+  if(message.content == prefix + "oui s'il te plait"){
+      message.reply("ok de quoi as tu besoin");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow qui est tu ?
+  if(message.content == prefix + "shadow qui est tu ?"){
+      message.reply("Nawiss m'a nommé shadow il peut m'appeler comme il le souhaite et je suis sa protectrice...je ne vais pas laisser les gens s'approcher de trop pres");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!qui est tu shadow ?
+  if(message.content == prefix + "qui est tu shadow ?"){
+      message.reply("Nawiss m'a nommé shadow il peut m'appeler comme il le souhaite et je suis sa protectrice...je ne vais pas laisser les gens s'approcher de trop pres");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!j'ai faim je vais manger
+  if(message.content == prefix + "j'ai faim je vais manger"){
+      message.reply("go to eat Nawiss, enjoy your meal");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!thank you shadow
+  if(message.content == prefix + "thank you shadow"){
+      message.reply("hhhh, c'est rien");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!je reviens
+  if(message.content == prefix + "je reviens"){
+      message.reply("Nawiss est AFK ne l'embetez pas");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!désolé
+  if(message.content == prefix + "désolé"){
+      message.reply("ce n'est rien peu importe ce que tu as fait");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!priestess
+  if(message.content == prefix + "priestess"){
+      message.reply("je suis une shadowfey priestess mais non méchante");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!j'etais parti
+  if(message.content == prefix + "j'etais parti"){
+      message.reply("bon retour parmi nous");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!j'etais sorti
+  if(message.content == prefix + "j'etais sorti"){
+      message.reply("Welcome back");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!j'etais pas la 
+  if(message.content == prefix + "j'etais pas la "){
+      message.reply("Nawiss re-bienvenue");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!je vais dormir goodnight a tous
+  if(message.content == prefix + "je vais dormir goodnight a tous"){
+      message.reply("Nawiss dors bien!!");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!je vais dormir goodnight
+  if(message.content == prefix + "je vais dormir goodnight"){
+      message.reply("Bonne nuit Nawiss ^^");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!good morning
+  if(message.content == prefix + "good morning"){
+      message.reply("HEYLLO Nawiss ^^");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!vous avez bien dormi ?
+  if(message.content == prefix + "vous avez bien dormi ?"){
+      message.reply("oui je me suis introduite dans tes rêves hhhh");   
+  }  
+});
+
+
 
 client.on("message",message => {
   if(message.author.bot) return;
