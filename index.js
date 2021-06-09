@@ -862,6 +862,48 @@ client.on("message",message => {
 });
 
 
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!je vais y aller goodbye
+  if(message.content == prefix + "je vais y aller goodbye"){
+      message.reply("Goodbye Nawiss ^^");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!goodbye
+  if(message.content == prefix + "goodbye"){
+      message.reply("tu y va ? goodbye");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!nope
+  if(message.content == prefix + "nope"){
+      message.reply("oui, ok");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!samurai
+  if(message.content == prefix + "samurai"){
+      message.reply("🏯");   
+  }  
+});
+
+
+
 
 client.on("message",message => {
   if(message.author.bot) return;
