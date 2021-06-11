@@ -903,6 +903,51 @@ client.on("message",message => {
 });
 
 
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!demande à shadow
+  if(message.content == prefix + "demande à shadow"){
+      message.reply("que dois-je faire ?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!great
+  if(message.content == prefix + "great"){
+      message.reply("GREAT ^^");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Goodbye
+  if(message.content == prefix + "Goodbye"){
+      message.reply("bye ;)");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!merde
+  if(message.content == prefix + "merde"){
+      message.reply("de cheval...");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!à shadow
+  if(message.content == prefix + "à shadow"){
+      message.reply(":)");   
+  }  
+});
 
 
 client.on("message",message => {
