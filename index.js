@@ -952,6 +952,293 @@ client.on("message",message => {
 
 client.on("message",message => {
   if(message.author.bot) return;
+
+  //!SHADOW
+  if(message.content == prefix + "SHADOW"){
+      message.reply("???");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien twitch
+  if(message.content == prefix + "aurais tu un lien twitch"){
+      message.reply("https://www.twitch.tv/sushi_nawiss");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien twitch ?
+  if(message.content == prefix + "aurais tu un lien twitch ?"){
+      message.reply("https://www.twitch.tv/sushi_nawiss");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien instagram
+  if(message.content == prefix + "aurais tu un lien instagram"){
+      message.reply("https://www.instagram.com/sushi_yuzu/");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien instagram
+  if(message.content == prefix + "aurais tu un lien instagram"){
+      message.reply("https://www.instagram.com/sushi_yuzu/");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien instagram ?
+  if(message.content == prefix + "aurais tu un lien instagram ?"){
+      message.reply("https://www.instagram.com/sushi_yuzu/");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien youtube
+  if(message.content == prefix + "aurais tu un lien youtube"){
+      message.reply("https://www.youtube.com/channel/UCWr0...");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien youtube ?
+  if(message.content == prefix + "aurais tu un lien youtube ?"){
+      message.reply("https://www.youtube.com/channel/UCWr0...");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien discord
+  if(message.content == prefix + "aurais tu un lien discord"){
+      message.reply("https://discord.gg/begQYuVSgg");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien discord ?
+  if(message.content == prefix + "aurais tu un lien discord ?"){
+      message.reply("https://discord.gg/begQYuVSgg");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!thx 
+  if(message.content == prefix + "thx"){
+      message.reply("c'est rien ƪ(ړײ)‎ƪ");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!thx shadow 
+  if(message.content == prefix + "thx shadow"){
+      message.reply("derien Nawiss");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!ah merde
+  if(message.content == prefix + "ah merde"){
+      message.reply("oh ?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!help shadow
+  if(message.content == prefix + "help shadow"){
+      message.reply("help tu as besoin de moi ?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow tu vas bien ?
+  if(message.content == prefix + "shadow tu vas bien ?"){
+      message.reply("si tu est ok je suis OK.");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!il y'a des enemis
+  if(message.content == prefix + "il y'a des enemis"){
+      message.reply("dois-je les supprimer");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!merci encore shadow
+  if(message.content == prefix + "merci encore shadow"){
+      message.reply("it's nothing Nawiss");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!hi
+  if(message.content == prefix + "hi"){
+      message.reply("HI Nawiss ^^");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!hello
+  if(message.content == prefix + "hello"){
+      message.reply("hello Nawiss");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!i'm ok
+  if(message.content == prefix + "i'm ok"){
+      message.reply("n'oublie pas si tu vas bien je vais bien aussi");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien google simple
+  if(message.content == prefix + "aurais tu un lien google simple"){
+      message.reply("https://www.google.com/");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien google simple ?
+  if(message.content == prefix + "aurais tu un lien google simple ?"){
+      message.reply("https://www.google.com/");   
+  }  
+});
+
+
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien youtube simple
+  if(message.content == prefix + "aurais tu un lien youtube simple"){
+      message.reply("https://www.youtube.com/");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!aurais tu un lien youtube simple ?
+  if(message.content == prefix + "aurais tu un lien youtube simple ?"){
+      message.reply("https://www.youtube.com/");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!stp
+  if(message.content == prefix + "stp"){
+      message.reply("yes...");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!please shadow
+  if(message.content == prefix + "please shadow"){
+      message.reply("yup ?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow please
+  if(message.content == prefix + "shadow please"){
+      message.reply("yes Nawiss ?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!hahaha
+  if(message.content == prefix + "hahaha"){
+      message.reply("HAHAHA ^^");   
+  }  
+});
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
   if(message.channel.type == "dm") return;
   
   if(message.member.hasPermission("ADMINISTRATOR")){
