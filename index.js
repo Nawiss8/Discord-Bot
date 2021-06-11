@@ -416,7 +416,7 @@ client.on("message",message => {
 
   //!mes jeux vidéos préférés
   if(message.content == prefix + "mes jeux vidéos préférés"){
-      message.reply("Overwatch, Minecraft, Street Fighter V,Final Fantasy 7 remak, GTA 5, Sherwood Dungeon, Roblox, Assassin's Creed Unity, Batman Arkham Knight, Dragon Quest Monster Joker 2, Warface");   
+      message.reply("Overwatch, Minecraft,naruto ninja storm, Street Fighter V,Final Fantasy 7 remak, GTA 5, Sherwood Dungeon, Roblox, Assassin's Creed Unity, Batman Arkham Knight, Dragon Quest Monster Joker 2, Warface");   
   }  
 });
 
@@ -1234,6 +1234,86 @@ client.on("message",message => {
       message.reply("HAHAHA ^^");   
   }  
 });
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!mes deux personnages préférés de toutE oeuvre
+  if(message.content == prefix + "mes deux personnages préférés de toutE oeuvre"){
+      message.reply("haku, Luffy, Widowmaker, Seth");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Merci
+  if(message.content == prefix + "Merci"){
+      message.reply("hhh derien");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Hi
+  if(message.content == prefix + "Hi"){
+      message.reply("Hi Nawiss!");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!arrete
+  if(message.content == prefix + "arrete"){
+      message.reply("ok");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!non arrete
+  if(message.content == prefix + "non arrete"){
+      message.reply("oui j'arrete");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!quand as tu été crée shadow
+  if(message.content == prefix + "quand as tu été crée shadow ?"){
+      message.reply("je ne sais pas, mais tu es celui qui m'a donné vie et je t'en remercie, je ne veux rien de plus^^");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!je vais eat
+  if(message.content == prefix + "je vais eat"){
+      message.reply("bon eat alors :)");   
+  }  
+})
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!j'ai fini
+  if(message.content == prefix + "j'ai fini"){
+      message.reply("j'en suis hereuse");   
+  }  
+})
 
 
 
