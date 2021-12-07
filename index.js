@@ -18,21 +18,6 @@ client.login(process.env.TOKEN);
 
 
 
-client.on("message",message => {
-    if(message.author.bot) return;
-
-    //!heyllo shadow^^
-    if(message.content == prefix + "heyllo shadow^^"){
-        message.reply("heyllo Nawiss^^");
-        
-
-    }
-
-   
-
-  } 
-
-)
 
 
 client.on("message",message => {
@@ -102,6 +87,87 @@ client.on("message",message => {
 
   }
 })
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!shadow legend
+  if(message.content == prefix + "shadow legend"){
+      message.reply("ça doit etre une ref a ce jeu tres mis en avant par les youtubeurs, et portant le nom de raid shadow legend");
+      
+
+  }
+})
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!help
+  if(message.content == prefix + "help"){
+      message.reply("je suis la");
+      
+
+  }
+})
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Kill
+  if(message.content == prefix + "Kill"){
+      message.reply("désolé Sushi mais cette commande n'est disponible que sur minecraft, à moins que tu veuille tuer quelqu'un??");
+      
+
+  }
+})
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!NON
+  if(message.content == prefix + "NON"){
+      message.reply("Ooh");
+      
+
+  }
+})
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!OUI
+  if(message.content == prefix + "OUI"){
+      message.reply("yup");
+      
+
+  }
+})
+
+
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+  var embed = new Discord.MessageEmbed()
+      .setColor("#0099ff")
+      .setTitle("bonjour^^")
+      .setURL("")
+  
+  message.channel.send(embed);
+
+})
+
+
+
+
+
+
+
+
 
 
 
