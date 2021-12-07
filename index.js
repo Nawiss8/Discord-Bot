@@ -35,6 +35,62 @@ client.on("message",message => {
 )
 
 
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Paypal
+  if(message.content == prefix + "Paypal"){
+      message.reply("https://www.paypal.com/paypalme/nawiss888");
+      
+  }  
+} 
+);
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!love
+  if(message.content == prefix + "love"){
+      message.reply("♥️");
+      
+  }  
+} 
+);
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!j'ai faim comme luffy
+  if(message.content == prefix + "j'ai faim comme luffy"){
+      message.reply("avale tout ce que tu peux et qui soit mangeable comme luffy le fait hahaha");
+      
+  }  
+} 
+);
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!xD
+  if(message.content == prefix + "xD"){
+      message.reply("xD aussi");
+      
+  }  
+} 
+);
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!paypal
+  if(message.content == prefix + "paypal"){
+      message.reply("https://www.paypal.com/paypalme/nawiss888");
+      
+  }
+})
+
+
 
 client.on("message",message => {
   if(message.author.bot) return;
@@ -543,32 +599,7 @@ client.on("message",message => {
 });
 
 
-client.on("message",message => {
-  if(message.author.bot) return;
 
-  //!Tous les liens
-  if(message.content == prefix + "tous les liens"){
-      message.reply("
-      ♞Gramgram (instagram) : @Sushi_Yuzu
-https://www.instagram.com/sushi_yuzu/
-♘Twitch : Sushi_Nawiss
-https://www.twitch.tv/sushi_nawiss
-
-♕ Discord (me) : Suyu_Shizu  hashtag3061
-♛ Discord (serveur) : https://discord.gg/KUbZHu4pG4
-
-♙ (Id)KakaoTalk : sushi_momoland
-♟ (Id)Wechat : yuzumomoland 
-
-♠️ Skype : Yuzu_Nawiss
-♣️ Tutube (YouTube) : @Sushi_Yuzu
-https://www.youtube.com/channel/UCWr09NDz9MDCWQ2IVlBPoiw
-
-♦️ Paypal : https://www.paypal.com/paypalme/nawiss888
-♥️ Utip :  https:utip.io/sushiyuzu/
-");   
-  }  
-});
 
 client.on("message",message => {
   if(message.author.bot) return;
