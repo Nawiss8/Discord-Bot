@@ -546,6 +546,33 @@ client.on("message",message => {
 client.on("message",message => {
   if(message.author.bot) return;
 
+  //!Tous les liens
+  if(message.content == prefix + "tous les liens"){
+      message.reply("
+      ♞Gramgram (instagram) : @Sushi_Yuzu
+https://www.instagram.com/sushi_yuzu/
+♘Twitch : Sushi_Nawiss
+https://www.twitch.tv/sushi_nawiss
+
+♕ Discord (me) : Suyu_Shizu  hashtag3061
+♛ Discord (serveur) : https://discord.gg/KUbZHu4pG4
+
+♙ (Id)KakaoTalk : sushi_momoland
+♟ (Id)Wechat : yuzumomoland 
+
+♠️ Skype : Yuzu_Nawiss
+♣️ Tutube (YouTube) : @Sushi_Yuzu
+https://www.youtube.com/channel/UCWr09NDz9MDCWQ2IVlBPoiw
+
+♦️ Paypal : https://www.paypal.com/paypalme/nawiss888
+♥️ Utip :  https:utip.io/sushiyuzu/
+");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
   //!t'as un lien youtube shadow ?
   if(message.content == prefix + "t'as un lien youtube shadow ?"){
       message.reply("https://www.youtube.com/channel/UCWr0...");   
@@ -1266,6 +1293,73 @@ client.on("message",message => {
   }  
 });
 
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Je t'invoque
+  if(message.content == prefix + "Je t'invoque"){
+      message.reply("as tu besoin de mes services??");   
+  }  
+});
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Nawiss
+  if(message.content == prefix + "Nawiss"){
+      message.reply("Tu viens de dire ton nom?? hereusement que ce n'est pas une autre personne, je ne dirais rien de comprométant sur toi");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!nawiss
+  if(message.content == prefix + "nawiss"){
+      message.reply("je supopose que tu vas bien");   
+  }  
+});
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Je ne vais pas bien
+  if(message.content == prefix + "Je ne vais pas bien"){
+      message.reply("que puis-je faire pour toi?");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!as tu vu quelque chose??
+  if(message.content == prefix + "as tu vu quelque chose??"){
+      message.reply("Hi Nawiss!");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Ying
+  if(message.content == prefix + "Ying"){
+      message.reply("Yang");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!Yang
+  if(message.content == prefix + "Yang"){
+      message.reply("Ying");   
+  }  
+});
+
+
+
 
 client.on("message",message => {
   if(message.author.bot) return;
@@ -1447,20 +1541,3 @@ client.on("message",message => {
   }
   
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
