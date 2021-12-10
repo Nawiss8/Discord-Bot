@@ -1,7 +1,13 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+//Définir le statut (activité) du robot !
+
+    client.setActivity('Heyllo', { type : 'PROTEGE'});
+
 const  prefix = "!"
+
+//Afficher un message dans la console quand le bot est en ligne
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -15,8 +21,7 @@ client.on('connecté protectrice de Nawiss', msg => {
 
 client.login(process.env.TOKEN);
 
-
-
+a regarder : https://www.youtube.com/watch?v=9P1rB2MY4ZA
 
 
 
