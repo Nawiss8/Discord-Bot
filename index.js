@@ -21,7 +21,7 @@ client.on('connecté protectrice de Nawiss', msg => {
 
 client.login(process.env.TOKEN);
 
-a regarder : https://www.youtube.com/watch?v=9P1rB2MY4ZA
+
 
 
 
@@ -165,12 +165,6 @@ client.on("message",message => {
   message.channel.send(embed);
 
 })
-
-
-
-
-
-
 
 
 
@@ -324,6 +318,16 @@ client.on("message",message => {
 
   //!ok
   if(message.content == prefix + "ok"){
+      message.reply("(づ｡◕‿‿◕｡)づ");   
+  }  
+});
+
+
+client.on("message",message => {
+  if(message.author.bot) return;
+
+  //!ok
+  if(message.content == prefix + "oki doki"){
       message.reply("(づ｡◕‿‿◕｡)づ");   
   }  
 });
@@ -502,11 +506,6 @@ client.on("message",message => {
 
 
 
-
-
-
-
-
 client.on("message",message => {
   if(message.author.bot) return;
 
@@ -534,7 +533,6 @@ client.on("message",message => {
       message.reply("?");   
   }  
 });
-
 
 
 
@@ -668,7 +666,6 @@ client.on("message",message => {
       message.reply("https://www.youtube.com/channel/UCWr0...");   
   }  
 });
-
 
 
 
@@ -1186,7 +1183,7 @@ client.on("message",message => {
 
   //!thx 
   if(message.content == prefix + "thx"){
-      message.reply("c'est rien ƪ(ړײ)‎ƪ");   
+      message.reply("c'est rien ƪ(ړײ)ƪ");   
   }  
 });
 
@@ -1301,8 +1298,6 @@ client.on("message",message => {
       message.reply("https://www.google.com/");   
   }  
 });
-
-
 
 
 
@@ -1462,7 +1457,6 @@ client.on("message",message => {
 
 
 
-
 client.on("message",message => {
   if(message.author.bot) return;
 
@@ -1607,8 +1601,6 @@ client.on("message",message => {
  }
    
 });
-
-
 
 
 
